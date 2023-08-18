@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title> Exmp</title>
+   <link rel="stylesheet" type="text/css"
+   href="style.css">
+    
+
+  
+</head>
+    <body>
+     <h2>Sign Up Form</h2>
+     <form action="response.html">
+      <table>
+        <tr>
+          <td>
+            <label>Name:</label>
+          </td>
+          <td>
+            <input type="text" name="name" size="15" required>
+      <p>Enter your name</p>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label>College:</label>
+          </td>
+          <td>
+            <input type="text" name="col" size="15" disabled>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label>Primary-Email:</label>
+          </td>
+          <td>
+            <input type="email" name="pmail" size="15" required>
+            <p>Enter your mail</p>
+            <img class="valid" src="check.png" height="20" width="20" >
+            <img class="invalid" src="error.png" height="20" width="20">
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label>Secondary-Email:</label>
+          </td>
+          <td>
+            <input type="email" name="smail" size="15">
+             <p>Enter your optional mil</p>
+             <img class="valid" src="check.png" height="20" width="20" >
+             <img class="invalid" src="error.png" height="20" width="20">
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label>Password:</label>
+          </td>
+          <td>
+            <input type="password" name="pwd" size="15" required>
+      <p>Enter your Password</p>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label>Gender</label>
+          </td>
+          <td>
+            <input type="radio" name="gender" value="M" checked>
+       <label>Male</label>
+       <input type="radio" name="gender" value="F">
+       <label>Female</label>
+       <input type="radio" name="gender" value="o">
+       <label>Other</label>
+          </td>
+        </tr> <tr>
+          <td>
+            <label>Age:</label>
+          </td>
+          <td>
+            <input type="number" name="age" min="18" max="100">
+            <p>Enter your age</p>
+            <img class="valid" src="check.png" height="20" width="20" >
+             <img class="invalid" src="error.png" height="20" width="20">
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label>MOD:</label>
+          </td>
+          <td>
+            <input type="text" name="mod" value="online" size="15" readonly>
+            <p>Only online mode available due to covid</p>
+          </td>
+        </tr>
+      </table>
+
+       <input type="submit" name="submit" > 
+     </form>
+  </body> 
+</html>
